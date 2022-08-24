@@ -1,6 +1,14 @@
 #include<iostream>
 using namespace std;
 class calculator{
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                                                                                                                                   //
+    //              CPP code Simple Calculator                                                                                                           //
+    //              Author name:- Bhushan Bajirao Atole                                                                                                         //
+    //              Date:- 24/08/2022                                                                                                                    //
+    //                                                                                                                                                   //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     int a;
     int b;
     int INFINITY;
@@ -11,19 +19,23 @@ class calculator{
         cout<<"entered numbers are "<<a<<"  &  "<<b<<endl;
 
     }
+    
+    //Addition
     int add(){
 
-       // Cout<<"the addition of two numbers is :"<<endl;
+        Cout<<"the addition of two numbers is :"<<endl;
 
         return a+b;
 
     }
-
+    //Substraction
     int sub(){
         cout<<"the substraction of two numbers is :"<<endl;
 
         return a-b;
     }
+    
+    //Division 
     int div(){
         cout<<"the division of two numbers is :"<<endl;
         if(b==0){
@@ -33,6 +45,8 @@ class calculator{
         return a/b;
         }
     }
+    
+    //    Multiplication
     int mul(){
         return a*b;
     }
